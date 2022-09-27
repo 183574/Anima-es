@@ -1,0 +1,24 @@
+body {
+    background-color: #ea6737;
+  }
+  .infinitamente{
+      width: 350px;
+      height: 350px;
+      background-color: rgb(15, 114, 220);
+      border-radius: 200px;
+      margin-top: 250px;
+      margin-left: 600px;
+      animation: pulse 2s infinite;  
+  }
+  @keyframes pulse {
+      0% {
+        background-color: #59983f;
+        width: 250px;
+        height: 250px;
+      }
+      100% {
+        background-color: #3a1ab9;
+        
+      }
+    }
+    

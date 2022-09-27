@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(155, 155, 245);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.surgindonatela {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-delay: 0;
+    border-color: black;
+    border-style: solid;
+  }
+  @keyframes stretch {
+    0% {
+      transform: scale(.0);
+      background-color: rgb(55, 0, 255);
+      
+    }
+    50% {
+      background-color: rgb(25, 211, 130);
+    }
+    100% {
+      transform: scale(1.5);
+    
+    }
+  }
